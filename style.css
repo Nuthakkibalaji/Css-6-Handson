@@ -1,0 +1,634 @@
+body{
+    
+ margin: 0px;
+ padding: 0px;
+ background-image: url(./shara\ desert.jpg);
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+
+.logo{
+    display: block;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left:900px;
+    top: 20px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
+li a:hover{
+    color: #000000;
+}
+.menu{
+    position: relative;
+    bottom: 10px;
+}
+
+.box{
+    width: 40%;
+    position: relative;
+    top: 250px;
+    left: 140px;
+}
+.heading{
+   color: white;
+}
+
+.header{
+    border: 0px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: italic;
+    position: relative;
+    bottom: 20px;    
+}
+.header:hover{
+    box-shadow: 10px 10px 10px #000000;
+    background-color: chocolate;
+    cursor: pointer;
+}
+.grid-containe{
+    display: grid;
+    grid-template-columns: 50% 20%;
+    position: absolute;
+    bottom: 100px;
+    left: 790px;
+    grid-gap: 20px 30px;
+    
+}
+.item1{
+    color: rgb(3, 3, 3);
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 250px;
+    height: 220px;
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item1:hover{
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.item2{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 250px;
+    height: 220px;
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item2:hover{
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.item3{
+    color: white;
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 250px;
+    height: 220px;
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item3:hover{
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.item4{
+    color: white;
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 250px;
+    height: 220px;
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item4:hover{
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+@media screen and (max-width: 900px), 
+       screen and (max-height: 700px){
+        body{
+    
+            margin: 0px;
+            padding: 0px;
+            background-image: url(./shara\ desert.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            background-attachment: fixed;
+           
+           }
+           
+           .logo{
+               display: block;
+               color: white;
+               position: absolute;
+               top: 25px;
+               left: 150px;
+           }
+           
+           
+           ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               position: absolute;
+               left:900px;
+               top: 20px;
+           }
+           
+           li{
+               float: left;
+           }
+           
+           li a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 35px;
+               text-decoration: none;
+               cursor: pointer;
+               
+           }
+           
+           
+           li a:hover{
+               color: #000000;
+           }
+           .menu{
+               position: relative;
+               bottom: 10px;
+           }
+           
+           .box{
+               width: 40%;
+               position: relative;
+               top: 250px;
+               left: 140px;
+           }
+           .heading{
+              color: white;
+           }
+           
+           .header{
+               border: 0px;
+               width: 200px;
+               height: 40px;
+               font-size: 20px;
+               border-radius: 30px;
+               font-family: italic;
+               position: relative;
+               bottom: 20px;    
+           }
+           .header:hover{
+               box-shadow: 10px 10px 10px #000000;
+               background-color: chocolate;
+               cursor: pointer;
+           }
+           .grid-containe{
+               display: grid;
+               grid-template-columns: 50% 20%;
+               position: absolute;
+               bottom: 100px;
+               left: 790px;
+               grid-gap: 20px 30px;
+               
+           }
+           .item1{
+               color: rgb(3, 3, 3);
+               font-size: 10px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 250px;
+               height: 220px;
+               background-image: url(./pic-1.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+           }
+           .item1:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item2{
+               color: rgb(0, 0, 0);
+               font-size: 10px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 250px;
+               height: 220px;
+               background-image: url(./pic-2.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+           
+           }
+           .item2:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item3{
+               color: white;
+               font-size: 10px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 250px;
+               height: 220px;
+               background-image: url(./pic-3.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+           
+           }
+           .item3:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item4{
+               color: white;
+               font-size: 10px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 250px;
+               height: 220px;
+               background-image: url(./pic-4.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+           
+           }
+           .item4:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+       }
+
+
+@media screen and (max-width: 800px), 
+       screen and (max-height: 700px){
+        body{
+    
+            
+            background-image: url(./shara\ desert.jpg);
+            background-size:cover;
+            
+           
+        }
+           
+           .logo{
+               display: block;
+               color: white;
+               position: absolute;
+               top: 25px;
+               left: 100px;
+           }
+           
+           
+           ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               position: absolute;
+               left:370px;
+               top: 20px;
+           }
+           
+           li{
+               float: left;
+           }
+           
+           li a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 20px;
+               text-decoration: none;
+               cursor: pointer;
+               
+           }
+           
+           
+           li a:hover{
+               color: #000000;
+           }
+           .menu{
+               position: relative;
+               bottom: 10px;
+           }
+           
+           .box{
+               width: 100%;
+               position: relative;
+               top: 55px;
+               left: 30px;
+           }
+           .heading{
+              color: white;
+           }
+           
+           .header{
+               border: 0px;
+               width: 200px;
+               height: 40px;
+               font-size: 20px;
+               border-radius: 30px;
+               font-family: italic;
+               position: relative;
+               bottom: 20px;    
+           }
+           .header:hover{
+               box-shadow: 10px 10px 10px #000000;
+               background-color: chocolate;
+               cursor: pointer;
+           }
+           .grid-containe{
+               display: grid;
+               grid-template-columns: repeat(1,auto);
+               position: absolute;
+               top: 50px;
+               position: relative;
+               left: 150px;
+               
+           }
+           .item1{
+               color: rgb(3, 3, 3);
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 500px;
+               height: 220px;
+               background-image: url(./pic-1.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           }
+           .item1:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item2{
+               color: rgb(0, 0, 0);
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 500px;
+               height: 220px;
+               background-image: url(./pic-2.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item2:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item3{
+               color: white;
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 500px;
+               height: 220px;
+               background-image: url(./pic-3.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item3:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item4{
+               color: white;
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 500px;
+               height: 220px;
+               background-image: url(./pic-4.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item4:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+       }
+@media screen and (max-width: 500px), 
+       screen and (max-height: 700px) {
+        body{
+    
+            
+            background-image: url(./shara\ desert.jpg);
+            background-size:cover;
+            
+           
+        }
+           
+           .logo{
+               display: block;
+               color: white;
+               position: absolute;
+               top: 25px;
+               left: 70px;
+           }
+           
+           
+           ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               position: absolute;
+               left:200px;
+               top: 20px;
+           }
+           
+           li{
+               float: left;
+           }
+           
+           li a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 10px 10px;
+               text-decoration: none;
+               cursor: pointer;
+               
+           }
+           
+           
+           li a:hover{
+               color: #000000;
+           }
+           .menu{
+               position: relative;
+               bottom: 10px;
+           }
+           
+           .box{
+               width: 90%;
+               position: relative;
+               top: 55px;
+               left: 30px;
+           }
+           .heading{
+              color: white;
+           }
+           
+           .header{
+               border: 0px;
+               width: 200px;
+               height: 40px;
+               font-size: 20px;
+               border-radius: 30px;
+               font-family: italic;
+               position: relative;
+               bottom: 20px;    
+           }
+           .header:hover{
+               box-shadow: 10px 10px 10px #000000;
+               background-color: chocolate;
+               cursor: pointer;
+           }
+           .grid-containe{
+               display: grid;
+               grid-template-columns: repeat(1,auto);
+               position: absolute;
+               top: 50px;
+               position: relative;
+               left: 20px;
+               
+           }
+           .item1{
+               color: rgb(3, 3, 3);
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 400px;
+               height: 220px;
+               background-image: url(./pic-1.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           }
+           .item1:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item2{
+               color: rgb(0, 0, 0);
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 400px;
+               height: 220px;
+               background-image: url(./pic-2.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item2:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item3{
+               color: white;
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 400px;
+               height: 220px;
+               background-image: url(./pic-3.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item3:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+           .item4{
+               color: white;
+               font-size: 13px;
+               padding: 12px;
+               border-radius: 10px;
+               width: 400px;
+               height: 220px;
+               background-image: url(./pic-4.png);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+           
+           }
+           .item4:hover{
+               box-shadow: 10px 10px 10px #000000;
+               cursor: pointer;
+               transform: translateY(-20px);
+           }
+       }      
+
